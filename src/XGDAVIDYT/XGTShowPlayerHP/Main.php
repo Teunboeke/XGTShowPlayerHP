@@ -49,163 +49,163 @@ class Main extends PluginBase implements Listener{
 					}elseif($this->config->get("Type") == 2){
 						if($hp == 20){
 							if($this->config->get("Format") == 1){
-								$player->sendMessage("§6§lDMG Informer »§6 ".$name."§4 ❤❤❤❤❤❤❤❤❤❤");
+								$player->sendMessage("§6§lDMG Informer »§6 ".$name."§9 ❤❤❤❤❤❤❤❤❤❤");
 							}elseif($this->config->get("Format") == 2){
-								$player->sendPopup("§6§l".$name."§4 ❤❤❤❤❤❤❤❤❤❤");
+								$player->sendPopup("§6§l".$name."§9 ❤❤❤❤❤❤❤❤❤❤");
 							}elseif($this->config->get("Format") == 3){
-								$player->addTitle("§6§l".$name. "\n§4❤❤❤❤❤❤❤❤❤❤");
+								$player->addTitle("§6§l".$name. "\n§9❤❤❤❤❤❤❤❤❤❤");
 							}
 						}elseif($hp == 19){
 							if($this->config->get("Format") == 1){
-								$player->sendMessage("§6§lDMG Informer »§6 ".$name."§4 ❤❤❤❤❤❤❤❤❤§c❤");
+								$player->sendMessage("§6§lDMG Informer »§6 ".$name."§9 ❤❤❤❤❤❤❤❤❤§c❤");
 							}elseif($this->config->get("Format") == 2){
-								$player->sendPopup("§6§l".$name."§4 ❤❤❤❤❤❤❤❤❤§c❤");
+								$player->sendPopup("§6§l".$name."§9 ❤❤❤❤❤❤❤❤❤§c❤");
 							}elseif($this->config->get("Format") == 3){
-								$player->addTitle("§6§l".$name. "\n§4 ❤❤❤❤❤❤❤❤❤§c❤");
+								$player->addTitle("§6§l".$name. "\n§9 ❤❤❤❤❤❤❤❤❤§9❤");
 							}
 						}elseif($hp == 18){
 							if($this->config->get("Format") == 1){
-								$player->sendMessage("§6§lDMG Informer »§r§6 §l".$name."§4 ❤❤❤❤❤❤❤❤❤§7❤");
+								$player->sendMessage("§6§lDMG Informer »§r§6 §l".$name."§9 ❤❤❤❤❤❤❤❤❤§9❤");
 							}elseif($this->config->get("Format") == 2){
-								$player->sendPopup("§6§l".$name."§4 ❤❤❤❤❤❤❤❤❤§7❤");
+								$player->sendPopup("§6§l".$name."§4 ❤❤❤❤❤❤❤§9❤");
 							}elseif($this->config->get("Format") == 3){
-								$player->addTitle("§6§l".$name. "\n§4 ❤❤❤❤❤❤❤❤❤§7❤");
+								$player->addTitle("§6§l".$name. "\n§4 ❤❤❤❤❤❤❤❤❤§9❤");
 							}
 						}elseif($hp == 17){
 							if($this->config->get("Format") == 1){
-								$player->sendMessage("§6§lDMG Informer »§r§6 §l".$name."§4 ❤❤❤❤❤❤❤❤§c❤§7❤");
+								$player->sendMessage("§6§lDMG Informer »§r§6 §l".$name."§9 ❤❤❤❤❤❤❤❤§9❤§9❤");
 							}elseif($this->config->get("Format") == 2){
-								$player->sendPopup("§6§l".$name."§4 ❤❤❤❤❤❤❤❤§c❤§7❤");
+								$player->sendPopup("§6§l".$name."§9 ❤❤❤❤❤❤❤❤§9❤§9❤");
 							}elseif($this->config->get("Format") == 3){
-								$player->addTitle("§6§l".$name. "\n§4 ❤❤❤❤❤❤❤❤§c❤§7❤");
+								$player->addTitle("§6§l".$name. "\n§9 ❤❤❤❤❤❤❤❤§9❤§9❤");
 							}
 						}elseif($hp == 16){
 							if($this->config->get("Format") == 1){
-								$player->sendMessage("§6§lDMG Informer »§6§r§6 §l".$name."§4 ❤❤❤❤❤❤❤❤§7❤§7❤");
+								$player->sendMessage("§6§lDMG Informer »§6§r§6 §l".$name."§9 ❤❤❤❤❤❤❤❤§9❤§9❤");
 							}elseif($this->config->get("Format") == 2){
-								$player->sendPopup("§6§l".$name."§4 ❤❤❤❤❤❤❤❤§7❤§7❤");
+								$player->sendPopup("§6§l".$name."§4 ❤❤❤❤❤❤❤❤§9❤§9❤");
 							}elseif($this->config->get("Format") == 3){
-								$player->addTitle("§6§l".$name. "\n§4 ❤❤❤❤❤❤❤❤§7❤§7❤");
+								$player->addTitle("§6§l".$name. "\n§4 ❤❤❤❤❤❤❤❤§9❤§9❤");
 							}
 						}elseif($hp == 15){
 							if($this->config->get("Format") == 1){
-								$player->sendMessage("§6§lDMG Informer »§6§r§6§l ".$name."§4 ❤❤❤❤❤❤❤§c❤§7❤§7❤");
+								$player->sendMessage("§6§lDMG Informer »§6§r§6§l ".$name."§9 ❤❤❤❤❤❤❤§9❤§9❤§9❤");
 							}elseif($this->config->get("Format") == 2){
-								$player->sendPopup("§6§l".$name."§4 ❤❤❤❤❤❤❤§c❤§7❤§7❤");
+								$player->sendPopup("§6§l".$name."§9 ❤❤❤❤❤❤❤§9❤§9❤§9❤");
 							}elseif($this->config->get("Format") == 3){
-								$player->addTitle("§6§l".$name. "\n§4 ❤❤❤❤❤❤❤§c❤§7❤§7❤");
+								$player->addTitle("§6§l".$name. "\n§9 ❤❤❤❤❤❤❤§9❤§9❤§9❤");
 							}
 						}elseif($hp == 14){
 							if($this->config->get("Format") == 1){
-								$player->sendMessage("§6§lDMG Informer »§6§r§6§l ".$name."§4 ❤❤❤❤❤❤❤§7❤§7❤§7❤");
+								$player->sendMessage("§6§lDMG Informer »§6§r§6§l ".$name."§9 ❤❤❤❤❤❤❤§9❤§9❤§9❤");
 							}elseif($this->config->get("Format") == 2){
-								$player->sendPopup("§6§l".$name."§4 ❤❤❤❤❤❤❤§7❤§7❤§7❤");
+								$player->sendPopup("§6§l".$name."§9 ❤❤❤❤❤❤❤§9❤§9❤§9❤");
 							}elseif($this->config->get("Format") == 3){
-								$player->addTitle("§6§l".$name. "\n§4 ❤❤❤❤❤❤❤§7❤§7❤§7❤");
+								$player->addTitle("§6§l".$name. "\n§9 ❤❤❤❤❤❤❤§9❤§9❤§9❤");
 							}
 						}elseif($hp == 13){
 							if($this->config->get("Format") == 1){
-								$player->sendMessage("§6§lDMG Informer »§6§r§6§l ".$name."§4 ❤❤❤❤❤❤§c❤§7❤§7❤§7❤");
+								$player->sendMessage("§6§lDMG Informer »§6§r§6§l ".$name."§9 ❤❤❤❤❤❤❤❤§9❤§9❤");
 							}elseif($this->config->get("Format") == 2){
-								$player->sendPopup("§6§l".$name."§4 ❤❤❤❤❤❤§c❤§7❤§7❤§7❤");
+								$player->sendPopup("§6§l".$name."§9 ❤❤❤❤❤❤§9❤§9❤§9❤§9❤");
 							}elseif($this->config->get("Format") == 3){
-								$player->addTitle("§6§l".$name. "\n§4 ❤❤❤❤❤❤§c❤§7❤§7❤§7❤");
+								$player->addTitle("§6§l".$name. "\n§9 ❤❤❤❤❤❤§9❤§9❤§9❤§9❤");
 							}
 						}elseif($hp == 12){
 							if($this->config->get("Format") == 1){
-								$player->sendMessage("§6§lDMG Informer »§6§r§6§l ".$name."§4 ❤❤❤❤❤❤§7❤§7❤§7❤§7❤");
+								$player->sendMessage("§6§lDMG Informer »§6§r§6§l ".$name."§9 ❤❤❤❤❤❤§9❤§9❤§9❤§9❤");
 							}elseif($this->config->get("Format") == 2){
-								$player->sendPopup("§6§l".$name."§4 ❤❤❤❤❤❤§7❤§7❤§7❤§7❤");
+								$player->sendPopup("§6§l".$name."§4 ❤❤❤❤❤❤§9❤§9❤§9❤§9❤");
 							}elseif($this->config->get("Format") == 3){
-								$player->addTitle("§6§l".$name. "\n§4 ❤❤❤❤❤❤§7❤§7❤§7❤§7❤");
+								$player->addTitle("§6§l".$name. "\n§9 ❤❤❤❤❤❤§9❤§9❤§9❤§9❤");
 							}
 						}elseif($hp == 11){
 							if($this->config->get("Format") == 1){
 								$player->sendMessage("§6§lDMG Informer »§6§r§6§l ".$name."§4 ❤❤❤❤❤§c❤§7❤§7❤§7❤§7❤");
 							}elseif($this->config->get("Format") == 2){
-								$player->sendPopup("§6§l".$name."§4 ❤❤❤❤❤§c❤§7❤§7❤§7❤§7❤");
+								$player->sendPopup("§6§l".$name."§9 ❤❤❤❤❤§c❤§7❤§7❤§7❤§7❤");
 							}elseif($this->config->get("Format") == 3){
-								$player->addTitle("§6§l".$name. "\n§4 ❤❤❤❤❤§c❤§7❤§7❤§7❤§7❤");
+								$player->addTitle("§6§l".$name. "\n§9 ❤❤❤❤❤§c❤§7❤§7❤§7❤§7❤");
 							}
 						}elseif($hp == 10){
 							if($this->config->get("Format") == 1){
 								$player->sendMessage("§6§lDMG Informer »§6§r§6§l ".$name."§4 ❤❤❤❤❤§7❤§7❤§7❤§7❤§7❤");
 							}elseif($this->config->get("Format") == 2){
-								$player->sendPopup("§6§l".$name."§4 ❤❤❤❤❤§7❤§7❤§7❤§7❤§7❤");
+								$player->sendPopup("§6§l".$name."§9 ❤❤❤❤❤§7❤§7❤§7❤§7❤§7❤");
 							}elseif($this->config->get("Format") == 3){
-								$player->addTitle("§6§l".$name. "\n§4 ❤❤❤❤❤§7❤§7❤§7❤§7❤§7❤");
+								$player->addTitle("§6§l".$name. "\n§9 ❤❤❤❤❤§7❤§7❤§7❤§7❤§7❤");
 							}
 						}elseif($hp == 9){
 							if($this->config->get("Format") == 1){
 								$player->sendMessage("§6§lDMG Informer »§6§r§6§l ".$name."§4 ❤❤❤❤§c❤§7❤§7❤§7❤§7❤§7❤");
 							}elseif($this->config->get("Format") == 2){
-								$player->sendPopup("§6§l".$name."§4 ❤❤❤❤§c❤§7❤§7❤§7❤§7❤§7❤");
+								$player->sendPopup("§6§l".$name."§9 ❤❤❤❤§c❤§7❤§7❤§7❤§7❤§7❤");
 							}elseif($this->config->get("Format") == 3){
-								$player->addTitle("§6§l".$name. "\n§4 ❤❤❤❤§c❤§7❤§7❤§7❤§7❤§7❤");
+								$player->addTitle("§6§l".$name. "\n§9 ❤❤❤❤§c❤§7❤§7❤§7❤§7❤§7❤");
 							}
 						}elseif($hp == 8){
 							if($this->config->get("Format") == 1){
-								$player->sendMessage("§6§lDMG Informer »§6§r§6§l ".$name."§4 ❤❤❤❤§7❤§7❤§7❤§7❤§7❤§7❤");
+								$player->sendMessage("§6§lDMG Informer »§6§r§6§l ".$name."§9 ❤❤❤❤§7❤§7❤§7❤§7❤§7❤§7❤");
 							}elseif($this->config->get("Format") == 2){
-								$player->sendPopup("§6§l".$name."§4 ❤❤❤❤§7❤§7❤§7❤§7❤§7❤§7❤");
+								$player->sendPopup("§6§l".$name."§9 ❤❤❤❤§7❤§7❤§7❤§7❤§7❤§7❤");
 							}elseif($this->config->get("Format") == 3){
-								$player->addTitle("§6§l".$name. "\n§4 ❤❤❤❤§7❤§7❤§7❤§7❤§7❤§7❤");
+								$player->addTitle("§6§l".$name. "\n§9 ❤❤❤❤§7❤§7❤§7❤§7❤§7❤§7❤");
 							}
 						}elseif($hp == 7){
 							if($this->config->get("Format") == 1){
-								$player->sendMessage("§6§lDMG Informer »§6§r§6§l ".$name."§4 ❤❤❤§c❤§7❤§7❤§7❤§7❤§7❤§7❤");
+								$player->sendMessage("§6§lDMG Informer »§6§r§6§l ".$name."§9 ❤❤❤§c❤§7❤§7❤§7❤§7❤§7❤§7❤");
 							}elseif($this->config->get("Format") == 2){
-								$player->sendPopup("§6§l".$name."§4 ❤❤❤§c❤§7❤§7❤§7❤§7❤§7❤§7❤");
+								$player->sendPopup("§6§l".$name."§9 ❤❤❤§c❤§7❤§7❤§7❤§7❤§7❤§7❤");
 							}elseif($this->config->get("Format") == 3){
-								$player->addTitle("§6§l".$name. "\n§4 ❤❤❤§c❤§7❤§7❤§7❤§7❤§7❤§7❤");
+								$player->addTitle("§6§l".$name. "\n§9 ❤❤❤§c❤§7❤§7❤§7❤§7❤§7❤§7❤");
 							}
 						}elseif($hp == 6){
 							if($this->config->get("Format") == 1){
-								$player->sendMessage("§6§lDMG Informer »§6§r§6§l ".$name."§4 ❤❤❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
+								$player->sendMessage("§6§lDMG Informer »§6§r§6§l ".$name."§9 ❤❤❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
 							}elseif($this->config->get("Format") == 2){
-								$player->sendPopup("§6§l".$name."§4 ❤❤❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
+								$player->sendPopup("§6§l".$name."§9 ❤❤❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
 							}elseif($this->config->get("Format") == 3){
-								$player->addTitle("§6§l".$name. "\n§4 ❤❤❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
+								$player->addTitle("§6§l".$name. "\n§9 ❤❤❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
 							}
 						}elseif($hp == 5){
 							if($this->config->get("Format") == 1){
-								$player->sendMessage("§6§lDMG Informer »§6§r§6§l ".$name."§4 ❤❤§c❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
+								$player->sendMessage("§6§lDMG Informer »§6§r§6§l ".$name."§9 ❤❤§c❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
 							}elseif($this->config->get("Format") == 2){
-								$player->sendPopup("§6§l".$name."§4 ❤❤§c❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
+								$player->sendPopup("§6§l".$name."§9 ❤❤§c❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
 							}elseif($this->config->get("Format") == 3){
-								$player->addTitle("§6§l".$name. "\n§4 ❤❤§c❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
+								$player->addTitle("§6§l".$name. "\n§9 ❤❤§c❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
 							}
 						}elseif($hp == 4){
 							if($this->config->get("Format") == 1){
-								$player->sendMessage("§6§lDMG Informer »§6§r§6§l ".$name."§4 ❤❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
+								$player->sendMessage("§6§lDMG Informer »§6§r§6§l ".$name."§9 ❤❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
 							}elseif($this->config->get("Format") == 2){
-								$player->sendPopup("§6§l".$name."§4 ❤❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
+								$player->sendPopup("§6§l".$name."§9 ❤❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
 							}elseif($this->config->get("Format") == 3){
-								$player->addTitle("§6§l".$name. "\n§4 ❤❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
+								$player->addTitle("§6§l".$name. "\n§9 ❤❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
 							}
 						}elseif($hp == 3){
 							if($this->config->get("Format") == 1){
-								$player->sendMessage("§6§lDMG Informer »§6§r§6§l ".$name."§4 ❤§c❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
+								$player->sendMessage("§6§lDMG Informer »§6§r§6§l ".$name."§9 ❤§c❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
 							}elseif($this->config->get("Format") == 2){
-								$player->sendPopup("§6§l".$name."§4 ❤§c❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
+								$player->sendPopup("§6§l".$name."§9 ❤§c❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
 							}elseif($this->config->get("Format") == 3){
-								$player->addTitle("§6§l".$name. "\n§4 ❤§c❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
+								$player->addTitle("§6§l".$name. "\n§9 ❤§c❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
 							}
 						}elseif($hp == 2){
 							if($this->config->get("Format") == 1){
-								$player->sendMessage("§6§lDMG Informer »§6§r§6§l ".$name."§4 ❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
+								$player->sendMessage("§6§lDMG Informer »§6§r§6§l ".$name."§9 ❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
 							}elseif($this->config->get("Format") == 2){
-								$player->sendPopup("§6§l".$name."§4 ❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
+								$player->sendPopup("§6§l".$name."§9 ❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
 							}elseif($this->config->get("Format") == 3){
-								$player->addTitle("§6§l".$name. "\n§4 ❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
+								$player->addTitle("§6§l".$name. "\n§9 ❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
 							}
 						}elseif($hp == 1){
 							if($this->config->get("Format") == 1){
-								$player->sendMessage("§6§lDMG Informer »§6§r§6 §l".$name."§c ❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
+								$player->sendMessage("§6§lDMG Informer »§6§r§6 §l".$name."§9 ❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
 							}elseif($this->config->get("Format") == 2){
-								$player->sendPopup("§6§l".$name."§c ❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
+								$player->sendPopup("§6§l".$name."§9 ❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
 							}elseif($this->config->get("Format") == 3){
-								$player->addTitle("§6§l".$name. "\n§c ❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
+								$player->addTitle("§6§l".$name. "\n§9 ❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
 							}
 						}
 					}
@@ -231,163 +231,163 @@ class Main extends PluginBase implements Listener{
 					}elseif($this->config->get("Type") == 2){
 						if($hp == 20){
 							if($this->config->get("Format") == 1){
-								$player->sendMessage("§6§lDMG Informer »§6 ".$name."§4 ❤❤❤❤❤❤❤❤❤❤");
+								$player->sendMessage("§6§lDMG Informer »§6 ".$name."§9 ❤❤❤❤❤❤❤❤❤❤");
 							}elseif($this->config->get("Format") == 2){
-								$player->sendPopup("§6§l".$name."§4 ❤❤❤❤❤❤❤❤❤❤");
+								$player->sendPopup("§6§l".$name."§9 ❤❤❤❤❤❤❤❤❤❤");
 							}elseif($this->config->get("Format") == 3){
-								$player->addTitle("§6§l".$name. "\n§4❤❤❤❤❤❤❤❤❤❤");
+								$player->addTitle("§6§l".$name. "\n§9❤❤❤❤❤❤❤❤❤❤");
 							}
 						}elseif($hp == 19){
 							if($this->config->get("Format") == 1){
-								$player->sendMessage("§6§lDMG Informer »§6 ".$name."§4 ❤❤❤❤❤❤❤❤❤§c❤");
+								$player->sendMessage("§6§lDMG Informer »§6 ".$name."§9 ❤❤❤❤❤❤❤❤❤§c❤");
 							}elseif($this->config->get("Format") == 2){
-								$player->sendPopup("§6§l".$name."§4 ❤❤❤❤❤❤❤❤❤§c❤");
+								$player->sendPopup("§6§l".$name."§9 ❤❤❤❤❤❤❤❤❤§c❤");
 							}elseif($this->config->get("Format") == 3){
-								$player->addTitle("§6§l".$name. "\n§4 ❤❤❤❤❤❤❤❤❤§c❤");
+								$player->addTitle("§6§l".$name. "\n§9 ❤❤❤❤❤❤❤❤❤§c❤");
 							}
 						}elseif($hp == 18){
 							if($this->config->get("Format") == 1){
-								$player->sendMessage("§6§lDMG Informer »§r§6 §l".$name."§4 ❤❤❤❤❤❤❤❤❤§7❤");
+								$player->sendMessage("§6§lDMG Informer »§r§6 §l".$name."§9 ❤❤❤❤❤❤❤❤❤§7❤");
 							}elseif($this->config->get("Format") == 2){
-								$player->sendPopup("§6§l".$name."§4 ❤❤❤❤❤❤❤❤❤§7❤");
+								$player->sendPopup("§6§l".$name."§9 ❤❤❤❤❤❤❤❤❤§7❤");
 							}elseif($this->config->get("Format") == 3){
-								$player->addTitle("§6§l".$name. "\n§4 ❤❤❤❤❤❤❤❤❤§7❤");
+								$player->addTitle("§6§l".$name. "\n§9 ❤❤❤❤❤❤❤❤❤§7❤");
 							}
 						}elseif($hp == 17){
 							if($this->config->get("Format") == 1){
-								$player->sendMessage("§6§lDMG Informer »§r§6 §l".$name."§4 ❤❤❤❤❤❤❤❤§c❤§7❤");
+								$player->sendMessage("§6§lDMG Informer »§r§6 §l".$name."§9 ❤❤❤❤❤❤❤❤§c❤§7❤");
 							}elseif($this->config->get("Format") == 2){
-								$player->sendPopup("§6§l".$name."§4 ❤❤❤❤❤❤❤❤§c❤§7❤");
+								$player->sendPopup("§6§l".$name."§9 ❤❤❤❤❤❤❤❤§c❤§7❤");
 							}elseif($this->config->get("Format") == 3){
-								$player->addTitle("§6§l".$name. "\n§4 ❤❤❤❤❤❤❤❤§c❤§7❤");
+								$player->addTitle("§6§l".$name. "\n§9 ❤❤❤❤❤❤❤❤§c❤§7❤");
 							}
 						}elseif($hp == 16){
 							if($this->config->get("Format") == 1){
-								$player->sendMessage("§6§lDMG Informer »§6§r§6 §l".$name."§4 ❤❤❤❤❤❤❤❤§7❤§7❤");
+								$player->sendMessage("§6§lDMG Informer »§6§r§6 §l".$name."§9 ❤❤❤❤❤❤❤❤§7❤§7❤");
 							}elseif($this->config->get("Format") == 2){
-								$player->sendPopup("§6§l".$name."§4 ❤❤❤❤❤❤❤❤§7❤§7❤");
+								$player->sendPopup("§6§l".$name."§9 ❤❤❤❤❤❤❤❤§7❤§7❤");
 							}elseif($this->config->get("Format") == 3){
-								$player->addTitle("§6§l".$name. "\n§4 ❤❤❤❤❤❤❤❤§7❤§7❤");
+								$player->addTitle("§6§l".$name. "\n§9 ❤❤❤❤❤❤❤❤§7❤§7❤");
 							}
 						}elseif($hp == 15){
 							if($this->config->get("Format") == 1){
-								$player->sendMessage("§6§lDMG Informer »§6§r§6§l ".$name."§4 ❤❤❤❤❤❤❤§c❤§7❤§7❤");
+								$player->sendMessage("§6§lDMG Informer »§6§r§6§l ".$name."§9 ❤❤❤❤❤❤❤§c❤§7❤§7❤");
 							}elseif($this->config->get("Format") == 2){
-								$player->sendPopup("§6§l".$name."§4 ❤❤❤❤❤❤❤§c❤§7❤§7❤");
+								$player->sendPopup("§6§l".$name."§9 ❤❤❤❤❤❤❤§c❤§7❤§7❤");
 							}elseif($this->config->get("Format") == 3){
-								$player->addTitle("§6§l".$name. "\n§4 ❤❤❤❤❤❤❤§c❤§7❤§7❤");
+								$player->addTitle("§6§l".$name. "\n§9 ❤❤❤❤❤❤❤§c❤§7❤§7❤");
 							}
 						}elseif($hp == 14){
 							if($this->config->get("Format") == 1){
-								$player->sendMessage("§6§lDMG Informer »§6§r§6§l ".$name."§4 ❤❤❤❤❤❤❤§7❤§7❤§7❤");
+								$player->sendMessage("§6§lDMG Informer »§6§r§6§l ".$name."§9 ❤❤❤❤❤❤❤§7❤§7❤§7❤");
 							}elseif($this->config->get("Format") == 2){
-								$player->sendPopup("§6§l".$name."§4 ❤❤❤❤❤❤❤§7❤§7❤§7❤");
+								$player->sendPopup("§6§l".$name."§9 ❤❤❤❤❤❤❤§7❤§7❤§7❤");
 							}elseif($this->config->get("Format") == 3){
-								$player->addTitle("§6§l".$name. "\n§4 ❤❤❤❤❤❤❤§7❤§7❤§7❤");
+								$player->addTitle("§6§l".$name. "\n§9 ❤❤❤❤❤❤❤§7❤§7❤§7❤");
 							}
 						}elseif($hp == 13){
 							if($this->config->get("Format") == 1){
-								$player->sendMessage("§6§lDMG Informer »§6§r§6§l ".$name."§4 ❤❤❤❤❤❤§c❤§7❤§7❤§7❤");
+								$player->sendMessage("§6§lDMG Informer »§6§r§6§l ".$name."§9 ❤❤❤❤❤❤§c❤§7❤§7❤§7❤");
 							}elseif($this->config->get("Format") == 2){
-								$player->sendPopup("§6§l".$name."§4 ❤❤❤❤❤❤§c❤§7❤§7❤§7❤");
+								$player->sendPopup("§6§l".$name."§9 ❤❤❤❤❤❤§c❤§7❤§7❤§7❤");
 							}elseif($this->config->get("Format") == 3){
-								$player->addTitle("§6§l".$name. "\n§4 ❤❤❤❤❤❤§c❤§7❤§7❤§7❤");
+								$player->addTitle("§6§l".$name. "\n§9 ❤❤❤❤❤❤§c❤§7❤§7❤§7❤");
 							}
 						}elseif($hp == 12){
 							if($this->config->get("Format") == 1){
-								$player->sendMessage("§6§lDMG Informer »§6§r§6§l ".$name."§4 ❤❤❤❤❤❤§7❤§7❤§7❤§7❤");
+								$player->sendMessage("§6§lDMG Informer »§6§r§6§l ".$name."§9 ❤❤❤❤❤❤§7❤§7❤§7❤§7❤");
 							}elseif($this->config->get("Format") == 2){
-								$player->sendPopup("§6§l".$name."§4 ❤❤❤❤❤❤§7❤§7❤§7❤§7❤");
+								$player->sendPopup("§6§l".$name."§9 ❤❤❤❤❤❤§7❤§7❤§7❤§7❤");
 							}elseif($this->config->get("Format") == 3){
-								$player->addTitle("§6§l".$name. "\n§4 ❤❤❤❤❤❤§7❤§7❤§7❤§7❤");
+								$player->addTitle("§6§l".$name. "\n§9 ❤❤❤❤❤❤§7❤§7❤§7❤§7❤");
 							}
 						}elseif($hp == 11){
 							if($this->config->get("Format") == 1){
-								$player->sendMessage("§6§lDMG Informer »§6§r§6§l ".$name."§4 ❤❤❤❤❤§c❤§7❤§7❤§7❤§7❤");
+								$player->sendMessage("§6§lDMG Informer »§6§r§6§l ".$name."§9 ❤❤❤❤❤§c❤§7❤§7❤§7❤§7❤");
 							}elseif($this->config->get("Format") == 2){
-								$player->sendPopup("§6§l".$name."§4 ❤❤❤❤❤§c❤§7❤§7❤§7❤§7❤");
+								$player->sendPopup("§6§l".$name."§9 ❤❤❤❤❤§c❤§7❤§7❤§7❤§7❤");
 							}elseif($this->config->get("Format") == 3){
-								$player->addTitle("§6§l".$name. "\n§4 ❤❤❤❤❤§c❤§7❤§7❤§7❤§7❤");
+								$player->addTitle("§6§l".$name. "\n§9 ❤❤❤❤❤§c❤§7❤§7❤§7❤§7❤");
 							}
 						}elseif($hp == 10){
 							if($this->config->get("Format") == 1){
-								$player->sendMessage("§6§lDMG Informer »§6§r§6§l ".$name."§4 ❤❤❤❤❤§7❤§7❤§7❤§7❤§7❤");
+								$player->sendMessage("§6§lDMG Informer »§6§r§6§l ".$name."§9 ❤❤❤❤❤§7❤§7❤§7❤§7❤§7❤");
 							}elseif($this->config->get("Format") == 2){
-								$player->sendPopup("§6§l".$name."§4 ❤❤❤❤❤§7❤§7❤§7❤§7❤§7❤");
+								$player->sendPopup("§6§l".$name."§9 ❤❤❤❤❤§7❤§7❤§7❤§7❤§7❤");
 							}elseif($this->config->get("Format") == 3){
-								$player->addTitle("§6§l".$name. "\n§4 ❤❤❤❤❤§7❤§7❤§7❤§7❤§7❤");
+								$player->addTitle("§6§l".$name. "\n§9 ❤❤❤❤❤§7❤§7❤§7❤§7❤§7❤");
 							}
 						}elseif($hp == 9){
 							if($this->config->get("Format") == 1){
-								$player->sendMessage("§6§lDMG Informer »§6§r§6§l ".$name."§4 ❤❤❤❤§c❤§7❤§7❤§7❤§7❤§7❤");
+								$player->sendMessage("§6§lDMG Informer »§6§r§6§l ".$name."§9 ❤❤❤❤§c❤§7❤§7❤§7❤§7❤§7❤");
 							}elseif($this->config->get("Format") == 2){
-								$player->sendPopup("§6§l".$name."§4 ❤❤❤❤§c❤§7❤§7❤§7❤§7❤§7❤");
+								$player->sendPopup("§6§l".$name."§9 ❤❤❤❤§c❤§7❤§7❤§7❤§7❤§7❤");
 							}elseif($this->config->get("Format") == 3){
-								$player->addTitle("§6§l".$name. "\n§4 ❤❤❤❤§c❤§7❤§7❤§7❤§7❤§7❤");
+								$player->addTitle("§6§l".$name. "\n§9 ❤❤❤❤§c❤§7❤§7❤§7❤§7❤§7❤");
 							}
 						}elseif($hp == 8){
 							if($this->config->get("Format") == 1){
-								$player->sendMessage("§6§lDMG Informer »§6§r§6§l ".$name."§4 ❤❤❤❤§7❤§7❤§7❤§7❤§7❤§7❤");
+								$player->sendMessage("§6§lDMG Informer »§6§r§6§l ".$name."§9 ❤❤❤❤§7❤§7❤§7❤§7❤§7❤§7❤");
 							}elseif($this->config->get("Format") == 2){
-								$player->sendPopup("§6§l".$name."§4 ❤❤❤❤§7❤§7❤§7❤§7❤§7❤§7❤");
+								$player->sendPopup("§6§l".$name."§9 ❤❤❤❤§7❤§7❤§7❤§7❤§7❤§7❤");
 							}elseif($this->config->get("Format") == 3){
-								$player->addTitle("§6§l".$name. "\n§4 ❤❤❤❤§7❤§7❤§7❤§7❤§7❤§7❤");
+								$player->addTitle("§6§l".$name. "\n§9 ❤❤❤❤§7❤§7❤§7❤§7❤§7❤§7❤");
 							}
 						}elseif($hp == 7){
 							if($this->config->get("Format") == 1){
-								$player->sendMessage("§6§lDMG Informer »§6§r§6§l ".$name."§4 ❤❤❤§c❤§7❤§7❤§7❤§7❤§7❤§7❤");
+								$player->sendMessage("§6§lDMG Informer »§6§r§6§l ".$name."§9 ❤❤❤§c❤§7❤§7❤§7❤§7❤§7❤§7❤");
 							}elseif($this->config->get("Format") == 2){
-								$player->sendPopup("§6§l".$name."§4 ❤❤❤§c❤§7❤§7❤§7❤§7❤§7❤§7❤");
+								$player->sendPopup("§6§l".$name."§9 ❤❤❤§c❤§7❤§7❤§7❤§7❤§7❤§7❤");
 							}elseif($this->config->get("Format") == 3){
-								$player->addTitle("§6§l".$name. "\n§4 ❤❤❤§c❤§7❤§7❤§7❤§7❤§7❤§7❤");
+								$player->addTitle("§6§l".$name. "\n§9 ❤❤❤§c❤§7❤§7❤§7❤§7❤§7❤§7❤");
 							}
 						}elseif($hp == 6){
 							if($this->config->get("Format") == 1){
-								$player->sendMessage("§6§lDMG Informer »§6§r§6§l ".$name."§4 ❤❤❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
+								$player->sendMessage("§6§lDMG Informer »§6§r§6§l ".$name."§9 ❤❤❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
 							}elseif($this->config->get("Format") == 2){
-								$player->sendPopup("§6§l".$name."§4 ❤❤❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
+								$player->sendPopup("§6§l".$name."§9 ❤❤❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
 							}elseif($this->config->get("Format") == 3){
-								$player->addTitle("§6§l".$name. "\n§4 ❤❤❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
+								$player->addTitle("§6§l".$name. "\n§9 ❤❤❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
 							}
 						}elseif($hp == 5){
 							if($this->config->get("Format") == 1){
-								$player->sendMessage("§6§lDMG Informer »§6§r§6§l ".$name."§4 ❤❤§c❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
+								$player->sendMessage("§6§lDMG Informer »§6§r§6§l ".$name."§9 ❤❤§c❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
 							}elseif($this->config->get("Format") == 2){
-								$player->sendPopup("§6§l".$name."§4 ❤❤§c❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
+								$player->sendPopup("§6§l".$name."§9 ❤❤§c❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
 							}elseif($this->config->get("Format") == 3){
-								$player->addTitle("§6§l".$name. "\n§4 ❤❤§c❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
+								$player->addTitle("§6§l".$name. "\n§9 ❤❤§c❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
 							}
 						}elseif($hp == 4){
 							if($this->config->get("Format") == 1){
-								$player->sendMessage("§6§lDMG Informer »§6§r§6§l ".$name."§4 ❤❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
+								$player->sendMessage("§6§lDMG Informer »§6§r§6§l ".$name."§9 ❤❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
 							}elseif($this->config->get("Format") == 2){
-								$player->sendPopup("§6§l".$name."§4 ❤❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
+								$player->sendPopup("§6§l".$name."§9 ❤❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
 							}elseif($this->config->get("Format") == 3){
-								$player->addTitle("§6§l".$name. "\n§4 ❤❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
+								$player->addTitle("§6§l".$name. "\n§9 ❤❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
 							}
 						}elseif($hp == 3){
 							if($this->config->get("Format") == 1){
-								$player->sendMessage("§6§lDMG Informer »§6§r§6§l ".$name."§4 ❤§c❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
+								$player->sendMessage("§6§lDMG Informer »§6§r§6§l ".$name."§9 ❤§c❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
 							}elseif($this->config->get("Format") == 2){
-								$player->sendPopup("§6§l".$name."§4 ❤§c❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
+								$player->sendPopup("§6§l".$name."§9 ❤§c❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
 							}elseif($this->config->get("Format") == 3){
-								$player->addTitle("§6§l".$name. "\n§4 ❤§c❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
+								$player->addTitle("§6§l".$name. "\n§9 ❤§c❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
 							}
 						}elseif($hp == 2){
 							if($this->config->get("Format") == 1){
-								$player->sendMessage("§6§lDMG Informer »§6§r§6§l ".$name."§4 ❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
+								$player->sendMessage("§6§lDMG Informer »§6§r§6§l ".$name."§9 ❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
 							}elseif($this->config->get("Format") == 2){
-								$player->sendPopup("§6§l".$name."§4 ❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
+								$player->sendPopup("§6§l".$name."§9 ❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
 							}elseif($this->config->get("Format") == 3){
-								$player->addTitle("§6§l".$name. "\n§4 ❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
+								$player->addTitle("§6§l".$name. "\n§9 ❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
 							}
 						}elseif($hp == 1){
 							if($this->config->get("Format") == 1){
-								$player->sendMessage("§6§lDMG Informer »§6§r§6 §l".$name."§c ❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
+								$player->sendMessage("§6§lDMG Informer »§6§r§6 §l".$name."§9 ❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
 							}elseif($this->config->get("Format") == 2){
-								$player->sendPopup("§6§l".$name."§c ❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
+								$player->sendPopup("§6§l".$name."§9 ❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
 							}elseif($this->config->get("Format") == 3){
-								$player->addTitle("§6§l".$name. "\n§c ❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
+								$player->addTitle("§6§l".$name. "\n§9 ❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤§7❤");
 							}
 						}
 					}
